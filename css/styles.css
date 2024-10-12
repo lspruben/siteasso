@@ -248,6 +248,7 @@ sup {
 a {
   color: var(--bs-link-color);
   text-decoration: underline;
+
 }
 a:hover {
   color: var(--bs-link-hover-color);
@@ -8083,6 +8084,10 @@ textarea.form-control-lg {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
 }
+.text-grey {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-gray-700-rgb), var(--bs-text-opacity)) !important;
+}
 
 .text-body {
   --bs-text-opacity: 1;
@@ -8127,7 +8132,7 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: #98c261 !important;
+  background-color: #4a7413 !important;
 }
 
 .bg-secondary {
@@ -8147,11 +8152,11 @@ textarea.form-control-lg {
 
 .bg-warning {
   --bs-bg-opacity: 1;
-  background-color: #6e9834 !important;
+  background-color: #EAFDF8 !important;
 }
 .bg-intervention {
   --bs-bg-opacity: 1;
-  background-color: #4a7413 !important;
+  background-color: #DE9E36 !important;
 }
 
 .bg-danger {
@@ -10674,6 +10679,7 @@ textarea.form-control-lg {
   .py-xxl-2 {
     padding-top: 0.5rem !important;
     padding-bottom: 0.5rem !important;
+
   }
   .py-xxl-3 {
     padding-top: 1rem !important;
@@ -10882,8 +10888,10 @@ html {
 .divider-custom.divider-light .divider-custom-line {
   background-color: #fff;
 }
+
+
 .divider-custom.divider-light .divider-custom-icon {
-  color: #fff;
+  color: rgba(var(--bs-gray-700-rgb), var(--bs-text-opacity)) !important;
 }
 
 .btn-xl {
